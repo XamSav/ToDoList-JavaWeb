@@ -15,7 +15,7 @@
     </head>
     <body>
         <div class="container">
-        <h1>List Of Tasks:</h1>
+        <h1>List Of Tasks</h1>
 
         <% 
             List<Task> tasks = (List)request.getSession().getAttribute("Tasks");
@@ -23,8 +23,26 @@
                 for(Task task : tasks){
         %>
             <div class="task-card">
-                <div class="task-title">Task: <%= task.getNombre() %></div>
-                <div class="task-details"><%= task.toString().replace(",", ",\n").replace("{", "").replace("}", "") %></div>
+                <div class="task-title"><%= task.getNombre() %></div>
+                
+                <div class="task-field"><span class="label">Priority:</span> 
+                    <span class="priority-<%= task.getPriority().toLowerCase() %>">
+                        <%= task.getPriority() %>
+                    </span>
+                </div>
+
+                <div class="task-field"><span class="label">Due Date:</span> <%= task.getDueDate() %></div>
+
+                <div class="task-field"><span class="label">Status:</span> 
+                    <span class="status-<%= task.getStatus().toLowerCase().replace(" ", "-") %>">
+                        <%= task.getStatus() %>
+                    </span>
+                </div>
+
+                <div class="task-field"><span class="label">Notes:</span> <%= task.getNotes() %></div>
+                <div class="task-field"><span class="label">Tags:</span> <%= task.getTags() %></div>
+                <div class="task-field"><span class="label">Assigned To:</span> <%= task.getAssignedTo() %></div>
+                <div class="task-field"><span class="label">Created By:</span> <%= task.getCreatedBy() %></div>
             </div>
         <%  
                 }

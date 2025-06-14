@@ -13,7 +13,7 @@ body {
             padding: 0;
         }
         .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 50px auto;
             padding: 20px;
         }
@@ -34,14 +34,23 @@ body {
             transform: scale(1.02);
         }
         .task-title {
-            font-size: 20px;
+            font-size: 22px;
             color: #007BFF;
+            margin-bottom: 15px;
+        }
+        .task-field {
             margin-bottom: 10px;
+            font-size: 16px;
         }
-        .task-details {
-            font-size: 15px;
-            color: #555;
-            line-height: 1.5;
-            white-space: pre-line;
+        .label {
+            font-weight: 600;
+            color: #333;
         }
-
+        .priority-low { color: #2ecc71; font-weight: bold; }
+        .priority-medium { color: #f39c12; font-weight: bold; }
+        .priority-high { color: #e67e22; font-weight: bold; }
+        .priority-urgent { color: #e74c3c; font-weight: bold; }
+        .status-pending { color: #f39c12; font-weight: bold; }
+        .status-in-progress { color: #3498db; font-weight: bold; }
+        .status-completed { color: #2ecc71; font-weight: bold; }
+        .status-cancelled { color: #7f8c8d; font-weight: bold; }
