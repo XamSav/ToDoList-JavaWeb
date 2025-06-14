@@ -16,7 +16,6 @@ Un proyecto de lista de tareas desarrollado en Java usando Servlets y JSP con in
 - [🚀 Cómo ejecutar](#-cómo-ejecutar)
 - [🛣 Roadmap futuro](#-roadmap-futuro)
 - [🧑 Autor](#-autor)
-- [📄 Licencia](#-licencia)
 
 ---
 
@@ -63,7 +62,7 @@ Un proyecto de lista de tareas desarrollado en Java usando Servlets y JSP con in
 ### 1️⃣ Clonar el repositorio
 
 ```bash
-git clone https://github.com/XamSav/todolist.git
+git clone https://github.com/XamSav/ToDoList-JavaWeb.git
 ```
 
 ### 2️⃣ Importar el proyecto
