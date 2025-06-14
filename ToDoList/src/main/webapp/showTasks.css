@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 14 jun 2025, 19:36:36
+    Author     : XamSav
+*/
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f7fa;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .task-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 20px 30px;
+            margin-bottom: 20px;
+            transition: transform 0.2s ease;
+        }
+        .task-card:hover {
+            transform: scale(1.02);
+        }
+        .task-title {
+            font-size: 20px;
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+        .task-details {
+            font-size: 15px;
+            color: #555;
+            line-height: 1.5;
+            white-space: pre-line;
+        }
+

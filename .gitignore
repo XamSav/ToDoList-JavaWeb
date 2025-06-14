@@ -1,0 +1,53 @@
+# -------------------------
+# Archivos de compilación
+# -------------------------
+*.class
+
+# -------------------------
+# Logs y archivos temporales
+# -------------------------
+*.log
+*.tmp
+
+# -------------------------
+# Empaquetados
+# -------------------------
+*.jar
+*.war
+*.ear
+
+# -------------------------
+# Maven
+# -------------------------
+target/
+
+# -------------------------
+# NetBeans
+# -------------------------
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Si usas versiones más recientes de NetBeans que generan caché de ejecución
+.netbeans/
+
+# -------------------------
+# IDEs genéricos
+# -------------------------
+.idea/
+*.iml
+*.iws
+
+# -------------------------
+# Sistemas operativos
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# VS Code (por si acaso)
+# -------------------------
+.vscode/
